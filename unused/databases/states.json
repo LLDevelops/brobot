@@ -1,0 +1,104 @@
+{
+	"stone": {
+		"0": {
+			"image": "https://cdn.discordapp.com/attachments/850491267095986237/875181474398240818/LLL_Object_Emptiness.png",
+			"width": [
+				500,
+				500
+			],
+			"height": [
+				500,
+				500
+			]
+		},
+		"1": {
+			"image": "https://cdn.discordapp.com/attachments/850491267095986237/875187483615322123/LLL_Object_Stone.png",
+			"width": [
+				450,
+				550
+			],
+			"height": [
+				450,
+				550
+			]
+		}
+	},
+	"iron ore": {
+		"states": {
+			"0": {
+				"image": "https://cdn.discordapp.com/attachments/850491267095986237/875181474398240818/LLL_Object_Emptiness.png",
+				"width": [
+					500,
+					500
+				],
+				"height": [
+					500,
+					500
+				]
+			},
+			"1": {
+				"image": "https://cdn.discordapp.com/attachments/850491267095986237/875187483615322123/LLL_Object_Stone.png",
+				"width": [
+					450,
+					550
+				],
+				"height": [
+					450,
+					550
+				]
+			}
+		}
+	},
+	"bottom rock stone": {
+		"states": {
+			"0": {
+				"image": "https://cdn.discordapp.com/attachments/850491267095986237/931751650685759548/LLL_Object_Bottom_Rock.png",
+				"width": [
+					450,
+					550
+				],
+				"height": [
+					525,
+					550
+				]
+			},
+			"1": {
+				"image": "https://cdn.discordapp.com/attachments/850491267095986237/884944462365720596/Little_Luigi_Land_LLL_Object_Iron_Ore.png",
+				"width": [
+					450,
+					550
+				],
+				"height": [
+					450,
+					550
+				]
+			}
+		}
+	},
+	"bottom rock iron ore": {
+		"states": {
+			"0": {
+				"image": "https://cdn.discordapp.com/attachments/850491267095986237/931751650685759548/LLL_Object_Bottom_Rock.png",
+				"width": [
+					450,
+					550
+				],
+				"height": [
+					525,
+					550
+				]
+			},
+			"1": {
+				"image": "https://cdn.discordapp.com/attachments/850491267095986237/884944462365720596/Little_Luigi_Land_LLL_Object_Iron_Ore.png",
+				"width": [
+					450,
+					550
+				],
+				"height": [
+					450,
+					550
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,504 @@
+{
+  "little luigi": {
+    "location": [
+      9,
+      0
+    ],
+    "inside": "",
+    "owns": [
+      "Main Land",
+      "-2, 0",
+      "-5, 0"
+    ],
+    "claims": 99999999,
+    "builds": 99999988,
+    "LL Points": 995,
+    "bought": [],
+    "inventory": {
+      "space": [
+        167,
+        200
+      ],
+      "blue berry": {
+        "description": "A blue berry. It restores 1/2 a food point. It grows only on bushes",
+        "restore": 0.5,
+        "growth time": 24,
+        "picked": true,
+        "type": "food",
+        "amount": 5
+      },
+      "red berry": {
+        "description": "A red berry. It restores 1/2 a food point. It grows only on bushes",
+        "restore": 0.5,
+        "growth time": 24,
+        "picked": true,
+        "type": "food",
+        "amount": 5
+      },
+      "purple berry": {
+        "description": "A purple berry. It restores 1/2 a food point. It grows only on bushes",
+        "type": "food",
+        "restore": 0.5,
+        "amount": 5
+      },
+      "apple": {
+        "description": "A juicy apple. It restores 1/2 a food point. It only grows on trees",
+        "type": "food",
+        "restore": 0.5,
+        "amount": 5
+      },
+      "pear": {
+        "description": "A juicy pear. It restores a food point. It only grows on trees",
+        "type": "food",
+        "restore": 0.5,
+        "amount": 5
+      },
+      "orange": {
+        "description": "An orange. It restores a food point. It only grows on trees",
+        "type": "food",
+        "restore": 0.5,
+        "amount": 5
+      },
+      "wood": {
+        "description": "It's a piece of wood",
+        "type": "material",
+        "amount": 15
+      },
+      "workbench": {
+        "description": "Table used to craft items",
+        "type": "appliance",
+        "craftable": {
+          "wood": 2
+        },
+        "amount": 1
+      },
+      "stone hatchet": {
+        "description": "A tool you can use to mine rock and other minerals",
+        "type": "tool",
+        "mines": [
+          "stone",
+          "iron ore"
+        ],
+        "durability": 9,
+        "craftable": {
+          "wood": 2,
+          "stone": 2
+        },
+        "amount": 20
+      },
+      "leaves": {
+        "description": "It's a leaf",
+        "type": "material",
+        "amount": 8
+      },
+      "string": {
+        "description": "It's string",
+        "type": "material",
+        "craftable": {
+          "leaves": 2
+        },
+        "amount": 1
+      },
+      "stone": {
+        "description": "It's a piece of stone",
+        "type": "material",
+        "amount": 20
+      },
+      "donation basket": {
+        "description": "Used to donate items to other players",
+        "type": "device",
+        "craftable": {
+          "wood": 5,
+          "string": 5
+        },
+        "amount": 1
+      },
+      "smelter": {
+        "description": "Used to melt minerals and other things",
+        "type": "appliance",
+        "craftable": {
+          "stone": 10
+        },
+        "amount": 1
+      },
+      "plug": {
+        "description": "Used to transfer electricity from your house to an appliance",
+        "type": "tool",
+        "craftable": {
+          "stone": 3
+        },
+        "amount": 5
+      },
+      "iron ore": {
+        "description": "It's a uncooked piece of iron",
+        "type": "material",
+        "amount": 20
+      },
+      "steel": {
+        "description": "It's strong piece of metal made from Iron Ore",
+        "type": "material",
+        "amount": 20
+      },
+      "stone knife": {
+        "description": "Used to carve wood into shapes",
+        "type": "device",
+        "craftable": {
+          "wood": 3,
+          "stone": 3
+        },
+        "amount": 1
+      },
+      "chisel": {
+        "description": "Used to carve into stone",
+        "type": "device",
+        "craftable": {
+          "wood": 5,
+          "steel": 3
+        },
+        "amount": 1
+      },
+      "unicycle": {
+        "description": "Use so you can travel up to 5 steps in style",
+        "type": "transportation device",
+        "craftable": {
+          "Wheel": 1,
+          "Seat": 1
+        },
+        "amount": 1
+      },
+      "bicycle": {
+        "description": "Use so you can travel up to 10 steps in style",
+        "type": "transportation device",
+        "craftable": {
+          "Wheel": 2,
+          "Seat": 1,
+          "Bicycle Frame": 1
+        },
+        "amount": 1
+      },
+      "burnt orange": {
+        "description": "An orange that's been burnt until it turned black. It tastes gross and restores only 0.1 food point.",
+        "type": "food",
+        "restore": 0.1,
+        "amount": 20
+      },
+      "crate": {
+        "description": "Used to store 50 items",
+        "type": "appliance",
+        "craftable": {
+          "wood": 10,
+          "string": 4
+        },
+        "amount": 1
+      }
+    },
+    "completed": [],
+    "hunger": 3,
+    "HP": 4,
+    "level": 0,
+    "experience": 1000000007,
+    "following": "ur mom's religion"
+  },
+  "brizzlebrip": {
+    "location": [
+      2,
+      0
+    ],
+    "inside": "",
+    "owns": [
+      "1, 0",
+      "2, 0"
+    ],
+    "claims": 0,
+    "builds": 4,
+    "LL Points": 3,
+    "bought": [],
+    "inventory": {
+      "space": [
+        4,
+        200
+      ],
+      "blue berry": {
+        "description": "A blue berry. It restores 1/2 a food point. It grows only on bushes",
+        "restore": 0.5,
+        "growth time": 24,
+        "picked": true,
+        "type": "food",
+        "amount": 0
+      },
+      "wood": {
+        "description": "It's a piece of wood",
+        "type": "material",
+        "amount": 3
+      },
+      "red berry": {
+        "description": "A red berry. It restores 1/2 a food point. It grows only on bushes",
+        "type": "food",
+        "restore": 0.5,
+        "growth time": 24,
+        "amount": 0
+      },
+      "pear": {
+        "description": "A juicy pear. It restores a food point. It only grows on trees",
+        "type": "food",
+        "restore": 0.5,
+        "growth time": 48,
+        "amount": 0
+      },
+      "orange": {
+        "description": "An orange. It restores a food point. It only grows on trees",
+        "type": "food",
+        "restore": 0.5,
+        "growth time": 48,
+        "amount": 0
+      },
+      "workbench": {
+        "description": "Table used to craft items",
+        "type": "appliance",
+        "craftable": {
+          "wood": 2
+        },
+        "amount": 1
+      },
+      "burnt orange": {
+        "description": "An orange that's been burnt until it turned black. It tastes gross and restores only 0.1 food point.",
+        "type": "food",
+        "restore": 0.1,
+        "amount": 0
+      },
+      "wheat": {
+        "description": "A plant that's useful for making foods",
+        "type": "material",
+        "amount": 2
+      }
+    },
+    "completed": [
+      "Make a Character",
+      "Explore!",
+      "Home Sweet Home",
+      "Make a Universal Purchase",
+      "Make a Purchase"
+    ],
+    "hunger": 1.1,
+    "HP": 4,
+    "level": 0,
+    "experience": 2
+  },
+  "angel": {
+    "location": [
+      -3,
+      0
+    ],
+    "inside": "",
+    "owns": [
+      "-4, 0",
+      "-3, 0"
+    ],
+    "claims": 1,
+    "builds": 3,
+    "LL Points": 3,
+    "bought": [],
+    "inventory": {
+      "space": [
+        40,
+        200
+      ],
+      "apple": {
+        "description": "A juicy apple. It restores a food point. It only grows on trees",
+        "restore": 0.5,
+        "growth time": 48,
+        "picked": true,
+        "type": "food",
+        "amount": 6
+      },
+      "purple berry": {
+        "description": "A purple berry. It restores 1/2 a food point. It grows only on bushes",
+        "type": "food",
+        "restore": 0.5,
+        "growth time": 24,
+        "amount": 4
+      },
+      "wood": {
+        "description": "It's a piece of wood",
+        "type": "material",
+        "amount": 5
+      },
+      "pear": {
+        "description": "A juicy pear. It restores a food point. It only grows on trees",
+        "type": "food",
+        "restore": 0.5,
+        "growth time": 48,
+        "amount": 3
+      },
+      "orange": {
+        "description": "An orange. It restores a food point. It only grows on trees",
+        "type": "food",
+        "restore": 0.5,
+        "growth time": 48,
+        "amount": 2
+      },
+      "workbench": {
+        "description": "Table used to craft items",
+        "type": "appliance",
+        "craftable": {
+          "wood": 2
+        },
+        "amount": 1
+      },
+      "wooden hatchet": {
+        "description": "A tool you can use to mine rock",
+        "type": "tool",
+        "mines": [
+          "stone"
+        ],
+        "durability": 1,
+        "craftable": {
+          "wood": 4
+        },
+        "amount": 0
+      },
+      "stone": {
+        "description": "It's a piece of stone",
+        "type": "material",
+        "amount": 8
+      },
+      "blue berry": {
+        "description": "A blue berry. It restores 1/2 a food point. It grows only on bushes",
+        "type": "food",
+        "restore": 0.5,
+        "growth time": 24,
+        "amount": 2
+      },
+      "leaves": {
+        "description": "It's a leaf",
+        "type": "material",
+        "amount": 2
+      },
+      "stone hatchet": {
+        "description": "A tool you can use to mine rock and other minerals",
+        "type": "tool",
+        "mines": [
+          "stone",
+          "iron ore"
+        ],
+        "durability": 10,
+        "craftable": {
+          "wood": 2,
+          "stone": 2
+        },
+        "amount": 1
+      },
+      "string": {
+        "description": "It's string",
+        "type": "material",
+        "craftable": {
+          "leaves": 2
+        },
+        "amount": 2
+      },
+      "smelter": {
+        "description": "Used to melt minerals and other things",
+        "type": "appliance",
+        "craftable": {
+          "stone": 10
+        },
+        "amount": 1
+      },
+      "plug": {
+        "description": "Used to transfer electricity from your house to an appliance",
+        "type": "tool",
+        "craftable": {
+          "stone": 3
+        },
+        "amount": 1
+      },
+      "baked pear": {
+        "description": "An even squishier hotter pear. It's more filling than normal and restores a food point.",
+        "type": "food",
+        "restore": 1,
+        "amount": 0
+      },
+      "fruit salad": {
+        "description": "A mix of many different types of fruits. Restores 2.5 food points.",
+        "type": "food",
+        "restore": 2.5,
+        "amount": 0
+      },
+      "stone knife": {
+        "description": "Used to carve wood into shapes",
+        "type": "device",
+        "craftable": {
+          "wood": 3,
+          "stone": 3
+        },
+        "amount": 1
+      },
+      "apple seed": {
+        "description": "A seed used to plant apple trees",
+        "type": "seed",
+        "grows": "apple tree",
+        "amount": 1
+      },
+      "wheat": {
+        "description": "A plant that's useful for making foods",
+        "type": "material",
+        "amount": 3
+      }
+    },
+    "completed": [
+      "Make a Character",
+      "Explore!",
+      "Home Sweet Home"
+    ],
+    "hunger": 5,
+    "HP": 5,
+    "level": 1,
+    "experience": 21
+  },
+  "maxfecteau": {
+    "location": [
+      -7,
+      0
+    ],
+    "inside": "",
+    "owns": [],
+    "claims": 1,
+    "builds": 5,
+    "LL Points": 1,
+    "bought": [],
+    "inventory": {
+      "space": [
+        2,
+        200
+      ],
+      "pear": {
+        "description": "A juicy pear. It restores a food point. It only grows on trees",
+        "type": "food",
+        "restore": 0.5,
+        "amount": 2
+      }
+    },
+    "completed": [],
+    "hunger": 1,
+    "HP": 5,
+    "level": 0,
+    "experience": 0
+  },
+  "omelette": {
+    "location": [
+      -1,
+      0
+    ],
+    "inside": "",
+    "owns": [],
+    "claims": 1,
+    "builds": 5,
+    "LL Points": 0,
+    "bought": [],
+    "inventory": {},
+    "hunger": 5,
+    "HP": 5,
+    "level": 0,
+    "experience": 0
+  }
+}

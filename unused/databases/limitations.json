@@ -1,0 +1,64 @@
+{
+    "placements":[0,1,2,3,4,5],
+    "alignments":[-1,0,1],
+    "width/height": {
+        "range":[50,1000],
+        "multiple":50
+    },
+    "rotation":[0],
+    "shapes":["circle","box","triangle"],
+    "colors": {
+        "1": {
+            "name":"red",
+            "code":"ff0000"
+        },
+        "2": {
+            "name":"orange",
+            "code":"ff8000"
+        },
+        "3": {
+            "name":"yellow",
+            "code":"ffff00"
+        },
+        "4": {
+            "name":"green",
+            "code":"00ff00"
+        },
+        "5": {
+            "name":"cyan",
+            "code":"00ffff"
+        },
+        "6": {
+            "name":"blue",
+            "code":"0000ff"
+        },
+        "7": {
+            "name":"purple",
+            "code":"aa00ff"
+        },
+        "8": {
+            "name":"pink",
+            "code":"ff00ff"
+        },
+        "9": {
+            "name":"brown",
+            "code":"806040"
+        },
+        "10": {
+            "name":"white",
+            "code":"ffffff"
+        },
+        "11": {
+            "name":"gray",
+            "code":"808080"
+        },
+        "12": {
+            "name":"black",
+            "code":"000000"
+        }
+    },
+    "color palette":{
+        "non-numbered":"https://cdn.discordapp.com/attachments/850168569655984128/851201729466335252/LLL_Color_Pallete_1.png",
+        "numbered":"https://cdn.discordapp.com/attachments/850491267095986237/875037480364171284/LLL_Color_Pallete_with_Numbers_1.png"
+    }
+}

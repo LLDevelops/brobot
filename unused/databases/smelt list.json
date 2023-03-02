@@ -1,0 +1,41 @@
+{
+   "hot blue berry": {
+      "blue berry": 1     
+   },
+   "hot red berry": {
+      "red berry": 1     
+   },
+   "hot purple berry": {
+      "purple berry": 1     
+   },
+   "baked apple": {
+      "apple": 1
+   },
+   "baked pear": {
+      "pear": 1
+   },
+   "burnt orange":{
+      "orange": 1
+   },
+   "berry salad":{
+      "blue berry": 1,
+      "red berry": 1,
+      "purple berry": 1
+   },
+   "fruit salad":{
+      "apple": 1,
+      "orange": 1,
+      "pear": 1
+   },
+   "fruit smoothie":{
+      "apple": 1,
+      "orange": 1,
+      "pear": 1,
+      "blue berry": 1,
+      "red berry": 1,
+      "purple berry": 1
+   },
+   "steel":{
+      "iron ore": 1
+   }
+}

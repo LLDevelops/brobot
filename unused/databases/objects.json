@@ -1,0 +1,1776 @@
+{
+    "dimensional hole inner": {
+        "information": {
+            "owner": "brizzlebrip",
+            "type": "object",
+            "image": [
+                "https://cdn.discordapp.com/attachments/855503393682620416/855509619153043456/Dimensional_Hole_Inner.png"
+            ],
+            "width": [
+                [
+                    125,
+                    875
+                ]
+            ],
+            "height": [
+                [
+                    125,
+                    875
+                ]
+            ]
+        }
+    },
+    "luigi's shop": {
+        "information": {
+            "owner": "little luigi",
+            "type": "shop",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850485491199639604/858372742595870730/Luigis_Shop.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/858372679290716180/Luigis_Shop.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/858371744510246962/Luigis_Shop.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/858371543122182194/Luigis_Shop.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/858370979079389244/Luigis_Shop.png"
+            ],
+            "width": [
+                [
+                    200,
+                    800
+                ],
+                [
+                    200,
+                    800
+                ],
+                [
+                    200,
+                    800
+                ],
+                [
+                    200,
+                    800
+                ],
+                [
+                    200,
+                    800
+                ]
+            ],
+            "height": [
+                [
+                    400,
+                    1000
+                ],
+                [
+                    400,
+                    1000
+                ],
+                [
+                    400,
+                    1000
+                ],
+                [
+                    400,
+                    1000
+                ],
+                [
+                    400,
+                    1000
+                ]
+            ]
+        },
+        "selling": {
+            "a box": {
+                "name": "a box",
+                "type": "object",
+                "amount": 1,
+                "price": 1,
+                "amount sold": 0
+            }
+        }
+    },
+    "purple berry bush": {
+        "information": {
+            "owner": "little luigi",
+            "type": "plant",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850491267095986237/862140909843513394/LLL_Object_Purple_Berry_Bush.png"
+            ],
+            "width": [
+                [
+                    425,
+                    575
+                ]
+            ],
+            "height": [
+                [
+                    425,
+                    575
+                ]
+            ],
+            "states": {
+                "0": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/864313465828409344/LLL_Object_Empty_Bush.png",
+                    "width": [
+                        425,
+                        575
+                    ],
+                    "height": [
+                        425,
+                        575
+                    ]
+                },
+                "1": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/862140909843513394/LLL_Object_Purple_Berry_Bush.png",
+                    "width": [
+                        425,
+                        575
+                    ],
+                    "height": [
+                        425,
+                        575
+                    ]
+                },
+                "state": "1",
+                "growth": [1, 1]
+            }
+        }
+    },
+    "blue berry bush": {
+        "information": {
+            "owner": "little luigi",
+            "type": "plant",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850491267095986237/862140898758492160/LLL_Object_Blue_Berry_Bush.png"
+            ],
+            "width": [
+                [
+                    425,
+                    575
+                ]
+            ],
+            "height": [
+                [
+                    425,
+                    575
+                ]
+            ],
+            "states": {
+                "0": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/864313465828409344/LLL_Object_Empty_Bush.png",
+                    "width": [
+                        425,
+                        575
+                    ],
+                    "height": [
+                        425,
+                        575
+                    ]
+                },
+                "1": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/862140898758492160/LLL_Object_Blue_Berry_Bush.png",
+                    "width": [
+                        425,
+                        575
+                    ],
+                    "height": [
+                        425,
+                        575
+                    ]
+                },
+                "state": "1",
+                "growth": [1, 1]
+            }
+        }
+    },
+    "red berry bush": {
+        "information": {
+            "owner": "little luigi",
+            "type": "plant",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850491267095986237/862140913366597632/LLL_Object_Red_Berry_Bush.png"
+            ],
+            "width": [
+                [
+                    425,
+                    575
+                ]
+            ],
+            "height": [
+                [
+                    425,
+                    575
+                ]
+            ],
+            "states": {
+                "0": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/864313465828409344/LLL_Object_Empty_Bush.png",
+                    "width": [
+                        425,
+                        575
+                    ],
+                    "height": [
+                        425,
+                        575
+                    ]
+                },
+                "1": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/862140913366597632/LLL_Object_Red_Berry_Bush.png",
+                    "width": [
+                        425,
+                        575
+                    ],
+                    "height": [
+                        425,
+                        575
+                    ]
+                },
+                "state": "1",
+                "growth": [1, 1]
+            }
+        }
+    },
+    "apple tree": {
+        "information": {
+            "owner": "little luigi",
+            "type": "plant",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850491267095986237/862148077452132362/LLL_Objects_Apple_Tree.png"
+            ],
+            "width": [
+                [
+                    350,
+                    650
+                ]
+            ],
+            "height": [
+                [
+                    300,
+                    850
+                ]
+            ],
+            "states": {
+                "0": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/864313468370419743/LLL_Object_Empty_Tree.png",
+                    "width": [
+                        350,
+                        650
+                    ],
+                    "height": [
+                        300,
+                        850
+                    ]
+                },
+                "1": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/862148077452132362/LLL_Objects_Apple_Tree.png",
+                    "width": [
+                        350,
+                        650
+                    ],
+                    "height": [
+                        300,
+                        850
+                    ]
+                },
+                "state": "1",
+                "growth": [1, 1]
+            }
+        }
+    },
+    "orange tree": {
+        "information": {
+            "owner": "little luigi",
+            "type": "plant",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850491267095986237/862148078827732992/LLL_Objects_Orange_Tree.png"
+            ],
+            "width": [
+                [
+                    350,
+                    650
+                ]
+            ],
+            "height": [
+                [
+                    300,
+                    850
+                ]
+            ],
+            "states": {
+                "0": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/864313468370419743/LLL_Object_Empty_Tree.png",
+                    "width": [
+                        350,
+                        650
+                    ],
+                    "height": [
+                        300,
+                        850
+                    ]
+                },
+                "1": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/862148078827732992/LLL_Objects_Orange_Tree.png",
+                    "width": [
+                        350,
+                        650
+                    ],
+                    "height": [
+                        300,
+                        850
+                    ]
+                },
+                "state": "1",
+                "growth": [1, 1]
+            }
+        }
+    },
+    "pear tree": {
+        "information": {
+            "owner": "little luigi",
+            "type": "plant",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850491267095986237/862148079938961418/LLL_Objects_Pear_Tree.png"
+            ],
+            "width": [
+                [
+                    350,
+                    650
+                ]
+            ],
+            "height": [
+                [
+                    300,
+                    850
+                ]
+            ],
+            "states": {
+                "0": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/864313468370419743/LLL_Object_Empty_Tree.png",
+                    "width": [
+                        350,
+                        650
+                    ],
+                    "height": [
+                        300,
+                        850
+                    ]
+                },
+                "1": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/862148079938961418/LLL_Objects_Pear_Tree.png",
+                    "width": [
+                        350,
+                        650
+                    ],
+                    "height": [
+                        300,
+                        850
+                    ]
+                },
+                "state": "1",
+                "growth": [1, 1]
+            }
+        }
+    },
+    "angel": {
+        "information": {
+            "owner": "angel",
+            "type": "character",
+            "image": [
+                "https://cdn.discordapp.com/attachments/869757015768072273/874085511617204294/Angel.png",
+                "https://cdn.discordapp.com/attachments/869757015768072273/874085432730742865/Angel.png",
+                "https://cdn.discordapp.com/attachments/869757015768072273/874083407804637244/Angel.png"
+            ],
+            "width": [
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ]
+            ],
+            "height": [
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ]
+            ]
+        }
+    },
+    "angel house": {
+        "information": {
+            "owner": "angel",
+            "type": "house",
+            "image": [
+                "https://cdn.discordapp.com/attachments/869757015768072273/875818390063829053/Angel_House.png",
+                "https://cdn.discordapp.com/attachments/869757015768072273/874431908430364733/Angel_House.png",
+                "https://cdn.discordapp.com/attachments/869757015768072273/874431757062119494/Angel_House.png",
+                "https://cdn.discordapp.com/attachments/869757015768072273/874431274964647936/Angel_House.png"
+            ],
+            "width": [
+                [
+                    325,
+                    675
+                ],
+                [
+                    325,
+                    675
+                ],
+                [
+                    325,
+                    675
+                ]
+            ],
+            "height": [
+                [
+                    100,
+                    725
+                ],
+                [
+                    100,
+                    725
+                ],
+                [
+                    275,
+                    725
+                ]
+            ]
+        }
+    },
+    "luigi's berry shop": {
+        "information": {
+            "owner": "little luigi",
+            "type": "shop",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850485491199639604/874714351255306290/Luigis_Berry_Shop.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/874713992856236092/Luigis_Berry_Shop.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/874713893740634183/Luigis_Berry_Shop.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/874713823737679902/Luigis_Berry_Shop.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/874713568619159582/Luigis_Berry_Shop.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/874711812745093120/Luigis_Berry_Shop.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/874710803482279967/Luigis_Berry_Shop.png"
+            ],
+            "width": [
+                [
+                    100,
+                    900
+                ]
+            ],
+            "height": [
+                [
+                    100,
+                    900
+                ]
+            ]
+        },
+        "selling": {
+            "Blue Berry": {
+                "name": "Blue Berry",
+                "type": "item",
+                "amount": 2,
+                "price": 0.5,
+                "amount sold": "01"
+            }
+        }
+    },
+    "eye": {
+        "information": {
+            "owner": "brizzlebrip",
+            "type": "object",
+            "image": [
+                "https://cdn.discordapp.com/attachments/855503393682620416/874764868073443378/eye.png",
+                "https://cdn.discordapp.com/attachments/855503393682620416/874764759097044992/eye.png",
+                "https://cdn.discordapp.com/attachments/855503393682620416/874763965601828895/eye.png",
+                "https://cdn.discordapp.com/attachments/855503393682620416/874763200560779324/eye.png",
+                "https://cdn.discordapp.com/attachments/855503393682620416/874762932775436298/eye.png",
+                "https://cdn.discordapp.com/attachments/855503393682620416/874762868527071313/eye.png",
+                "https://cdn.discordapp.com/attachments/855503393682620416/874755945689911356/eye.png",
+                "https://cdn.discordapp.com/attachments/855503393682620416/874755402179432598/eye.png",
+                "https://cdn.discordapp.com/attachments/855503393682620416/874754810405068871/eye.png",
+                "https://cdn.discordapp.com/attachments/855503393682620416/874754529374126190/eye.png"
+            ],
+            "width": [
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    600
+                ],
+                [
+                    400,
+                    600
+                ]
+            ],
+            "height": [
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    600
+                ],
+                [
+                    400,
+                    600
+                ]
+            ]
+        }
+    },
+    "blue berry chair": {
+        "information": {
+            "owner": "little luigi",
+            "type": "object",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850485491199639604/874756833305301052/Blue_Berry_Chair.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/874756776308899880/Blue_Berry_Chair.png"
+            ],
+            "width": [
+                [
+                    400,
+                    600
+                ],
+                [
+                    400,
+                    600
+                ]
+            ],
+            "height": [
+                [
+                    400,
+                    650
+                ],
+                [
+                    400,
+                    500
+                ]
+            ]
+        }
+    },
+    "purple berry table": {
+        "information": {
+            "owner": "little luigi",
+            "type": "object",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850485491199639604/874760846960652378/Purple_Berry_Table.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/874760684632690759/Purple_Berry_Table.png"
+            ],
+            "width": [
+                [
+                    150,
+                    850
+                ],
+                [
+                    150,
+                    850
+                ]
+            ],
+            "height": [
+                [
+                    450,
+                    750
+                ],
+                [
+                    450,
+                    500
+                ]
+            ]
+        }
+    },
+    "blue berry chair2": {
+        "information": {
+            "owner": "little luigi",
+            "type": "object",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850485491199639604/874761447673061416/Blue_Berry_Chair2.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/874761428748345404/Blue_Berry_Chair2.png"
+            ],
+            "width": [
+                [
+                    400,
+                    600
+                ],
+                [
+                    400,
+                    600
+                ],
+                [
+                    400,
+                    600
+                ]
+            ],
+            "height": [
+                [
+                    400,
+                    500
+                ],
+                [
+                    400,
+                    500
+                ],
+                [
+                    400,
+                    500
+                ]
+            ]
+        }
+    },
+    "fridge": {
+        "information": {
+            "owner": "little luigi",
+            "type": "object",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850485491199639604/874764569254432858/Fridge.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/874764398042959892/Fridge.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/874764182904516648/Fridge.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/874764163979833344/Fridge.png"
+            ],
+            "width": [
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ],
+                [
+                    300,
+                    700
+                ]
+            ],
+            "height": [
+                [
+                    175,
+                    825
+                ],
+                [
+                    175,
+                    825
+                ],
+                [
+                    175,
+                    825
+                ],
+                [
+                    175,
+                    825
+                ]
+            ]
+        }
+    },
+    "brizzlebrip": {
+        "information": {
+            "owner": "brizzlebrip",
+            "type": "character",
+            "image": [
+                "https://cdn.discordapp.com/attachments/855503393682620416/874830900821631018/BrizzleBrip.png",
+                "https://cdn.discordapp.com/attachments/855503393682620416/874830834358693948/BrizzleBrip.png",
+                "https://cdn.discordapp.com/attachments/855503393682620416/874830676606726174/BrizzleBrip.png",
+                "https://cdn.discordapp.com/attachments/855503393682620416/874795748657610752/BrizzleBrip.png"
+            ],
+            "width": [
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ]
+            ],
+            "height": [
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ]
+            ]
+        }
+    },
+    "tree": {
+        "information": {
+            "owner": "little luigi",
+            "type": "plant",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850491267095986237/875052207639265320/LLL_Object_Tree.png"
+            ],
+            "width": [
+                [
+                    400,
+                    600
+                ]
+            ],
+            "height": [
+                [
+                    300,
+                    800
+                ]
+            ],
+            "states": {
+                "0": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/931749759876755477/LLL_Object_Tree_Sapling.png",
+                    "width": [
+                        450,
+                        550
+                    ],
+                    "height": [
+                        400,
+                        600
+                    ]
+                },
+                "1": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/875052207639265320/LLL_Object_Tree.png",
+                    "width": [
+                        400,
+                        600
+                    ],
+                    "height": [
+                        300,
+                        800
+                    ]
+                },
+                "state": "1",
+                "growth": [4, 4]
+            }
+        }
+    },
+    "eyes": {
+        "information": {
+            "owner": "brizzlebrip",
+            "type": "object",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850485491199639604/875147829302153216/eyes.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875147797299605544/eyes.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875147558480117760/eyes.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875147517837324380/eyes.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875147406335938630/eyes.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875147316233928844/eyes.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875147283740631111/eyes.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875147212114522152/eyes.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875147179776417862/eyes.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875147136210202684/eyes.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875147107441475594/eyes.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875147077020168263/eyes.png"
+            ],
+            "width": [
+                [
+                    200,
+                    800
+                ],
+                [
+                    200,
+                    800
+                ],
+                [
+                    200,
+                    800
+                ],
+                [
+                    200,
+                    800
+                ],
+                [
+                    200,
+                    800
+                ],
+                [
+                    200,
+                    800
+                ],
+                [
+                    200,
+                    800
+                ],
+                [
+                    200,
+                    800
+                ],
+                [
+                    200,
+                    400
+                ],
+                [
+                    200,
+                    400
+                ],
+                [
+                    200,
+                    400
+                ],
+                [
+                    200,
+                    400
+                ]
+            ],
+            "height": [
+                [
+                    0,
+                    400
+                ],
+                [
+                    0,
+                    400
+                ],
+                [
+                    0,
+                    400
+                ],
+                [
+                    0,
+                    400
+                ],
+                [
+                    0,
+                    400
+                ],
+                [
+                    0,
+                    400
+                ],
+                [
+                    0,
+                    400
+                ],
+                [
+                    0,
+                    400
+                ],
+                [
+                    0,
+                    400
+                ],
+                [
+                    0,
+                    400
+                ],
+                [
+                    0,
+                    300
+                ],
+                [
+                    0,
+                    200
+                ]
+            ]
+        }
+    },
+    "tusks": {
+        "information": {
+            "owner": "brizzlebrip",
+            "type": "object",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850485491199639604/875149295978954752/tusks.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875149278199316520/tusks.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875149262290292766/tusks.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875149245907370014/tusks.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875149231701237760/tusks.png"
+            ],
+            "width": [
+                [
+                    175,
+                    825
+                ],
+                [
+                    175,
+                    825
+                ],
+                [
+                    175,
+                    825
+                ],
+                [
+                    175,
+                    525
+                ],
+                [
+                    475,
+                    525
+                ]
+            ],
+            "height": [
+                [
+                    0,
+                    600
+                ],
+                [
+                    0,
+                    600
+                ],
+                [
+                    0,
+                    600
+                ],
+                [
+                    0,
+                    600
+                ],
+                [
+                    0,
+                    50
+                ]
+            ]
+        }
+    },
+    "nose": {
+        "information": {
+            "owner": "brizzlebrip",
+            "type": "object",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850485491199639604/875150600638177300/nose.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875150572662161458/nose.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875150547030777866/nose.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875150446707245086/nose.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875150414201360394/nose.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875150376532312074/nose.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875150342940151908/nose.png"
+            ],
+            "width": [
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    200,
+                    1000
+                ],
+                [
+                    450,
+                    1000
+                ],
+                [
+                    450,
+                    550
+                ]
+            ],
+            "height": [
+                [
+                    0,
+                    275
+                ],
+                [
+                    0,
+                    275
+                ],
+                [
+                    0,
+                    275
+                ],
+                [
+                    0,
+                    275
+                ],
+                [
+                    0,
+                    200
+                ],
+                [
+                    0,
+                    200
+                ],
+                [
+                    0,
+                    100
+                ]
+            ]
+        }
+    },
+    "workbench": {
+        "information": {
+            "owner": "little luigi",
+            "type": "appliance",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850491267095986237/875153347609526352/LLL_Object_Workbench.png"
+            ],
+            "width": [
+                [
+                    250,
+                    750
+                ]
+            ],
+            "height": [
+                [
+                    400,
+                    700
+                ]
+            ]
+        }
+    },
+    "smelter": {
+        "information": {
+            "owner": "little luigi",
+            "type": "appliance",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850491267095986237/887125630385270794/Little_Luigi_Land_LLL_Objects_Smelter.png"
+            ],
+            "width": [
+                [
+                    425,
+                    575
+                ]
+            ],
+            "height": [
+                [
+                    400,
+                    700
+                ]
+            ]
+        },
+        "space": {
+            "width": [
+                1536,
+                1686
+            ],
+            "height": [
+                780,
+                1080
+            ],
+            "covered": [
+                false
+            ],
+            "horizontal placement": [
+                4,
+                5
+            ],
+            "vertical placement": [
+                2,
+                2
+            ],
+            "horizontal alignment": 1,
+            "vertical alignment": -1
+        }
+    },
+    "crate": {
+        "information": {
+            "owner": "little luigi",
+            "type": "storage device",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850491267095986237/933506597651623946/LLL_Object_Crate.png"
+            ],
+            "width": [
+                [
+                    325,
+                    675
+                ]
+            ],
+            "height": [
+                [
+                    325,
+                    675
+                ]
+            ],
+            "space": 50
+        },
+        "space": {
+            "width": [
+                1570,
+                1920
+            ],
+            "height": [
+                730,
+                1080
+            ],
+            "covered": [
+                false
+            ],
+            "horizontal placement": [
+                1,
+                1
+            ],
+            "vertical placement": [
+                1,
+                1
+            ],
+            "horizontal alignment": -1,
+            "vertical alignment": -1
+        }
+    },
+    "luigi house": {
+        "information": {
+            "owner": "little luigi",
+            "type": "house",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850485491199639604/875156475931144263/Luigi_House.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875156082023096391/Luigi_House.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/875155802422399007/Luigi_House.png"
+            ],
+            "width": [
+                [
+                    375,
+                    625
+                ],
+                [
+                    375,
+                    625
+                ],
+                [
+                    400,
+                    600
+                ]
+            ],
+            "height": [
+                [
+                    350,
+                    700
+                ],
+                [
+                    350,
+                    700
+                ],
+                [
+                    500,
+                    700
+                ]
+            ]
+        }
+    },
+    "stone": {
+        "information": {
+            "name": "Stone",
+            "owner": "little luigi",
+            "type": "mineral",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850491267095986237/875187483615322123/LLL_Object_Stone.png"
+            ],
+            "width": [
+                [
+                    450,
+                    550
+                ]
+            ],
+            "height": [
+                [
+                    450,
+                    550
+                ]
+            ],
+            "minerals": [
+                "Stone"
+            ],
+            "states": {
+                "0": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/875181474398240818/LLL_Object_Emptiness.png",
+                    "width": [
+                        500,
+                        500
+                    ],
+                    "height": [
+                        500,
+                        500
+                    ]
+                },
+                "1": {
+                    "image": "https://cdn.discordapp.com/attachments/850491267095986237/875187483615322123/LLL_Object_Stone.png",
+                    "width": [
+                        450,
+                        550
+                    ],
+                    "height": [
+                        450,
+                        550
+                    ]
+                },
+                "state": 1
+            }
+        }
+    },
+    "brizzlepod": {
+        "information": {
+            "owner": "brizzlebrip",
+            "type": "house",
+            "image": [
+                "https://cdn.discordapp.com/attachments/855503393682620416/875448494154973235/BrizzlePod.png",
+                "https://cdn.discordapp.com/attachments/855503393682620416/875447858139103252/BrizzlePod.png",
+                "https://cdn.discordapp.com/attachments/855503393682620416/875447418185990174/BrizzlePod.png"
+            ],
+            "width": [
+                [
+                    350,
+                    650
+                ],
+                [
+                    350,
+                    650
+                ],
+                [
+                    350,
+                    650
+                ]
+            ],
+            "height": [
+                [
+                    500,
+                    1000
+                ],
+                [
+                    500,
+                    1000
+                ],
+                [
+                    600,
+                    1000
+                ]
+            ]
+        }
+    },
+    "ladder": {
+        "information": {
+            "name": "Ladder",
+            "owner": "little luigi",
+            "type": "transportation device",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850491267095986237/875556202011045978/LLL_Object_Ladder.png"
+            ],
+            "width": [
+                [
+                    400,
+                    600
+                ]
+            ],
+            "height": [
+                [
+                    0,
+                    1000
+                ]
+            ]
+        }
+    },
+    "little luigi": {
+        "information": {
+            "owner": "little luigi",
+            "type": "character",
+            "image": [
+                "https://cdn.discordapp.com/attachments/850485491199639604/904183779621482586/Little_Luigi.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/904183715574452255/Little_Luigi.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/904183679889338388/Little_Luigi.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/904183463698124841/Little_Luigi.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/904183160936497164/Little_Luigi.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/904183124425076746/Little_Luigi.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/904182887878905896/Little_Luigi.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/904182840990781470/Little_Luigi.png",
+                "https://cdn.discordapp.com/attachments/850485491199639604/904181634931253258/Little_Luigi.png"
+            ],
+            "width": [
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ]
+            ],
+            "height": [
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ],
+                [
+                    0,
+                    1000
+                ]
+            ]
+        }
+    },
+    "maxfecteau": {
+        "information": {
+            "owner": "maxfecteau",
+            "type": "character",
+            "image": [
+                "https://cdn.discordapp.com/attachments/890698833510678579/890791142008963112/Maxfecteau.png"
+            ],
+            "width": [
+                [
+                    0,
+                    1000
+                ]
+            ],
+            "height": [
+                [
+                    0,
+                    1000
+                ]
+            ]
+        }
+    },
+    "super maxfecteau in real life": {
+        "information": {
+            "owner": "maxfecteau",
+            "type": "object",
+            "image": [
+                "https://cdn.discordapp.com/attachments/890698833510678579/890801513922961468/Super_Maxfecteau_In_Real_Life.png"
+            ],
+            "width": [
+                [
+                    50,
+                    950
+                ]
+            ],
+            "height": [
+                [
+                    225,
+                    775
+                ]
+            ]
+        }
+    },
+    "omelette house": {
+        "information": {
+            "owner": "omelette",
+            "type": "house",
+            "image": [
+                "https://cdn.discordapp.com/attachments/855503549802872872/928082096206020648/omelette_house.png"
+            ],
+            "width": [
+                [
+                    325,
+                    675
+                ]
+            ],
+            "height": [
+                [
+                    466.66666666666663,
+                    1000
+                ]
+            ]
+        },
+        "space": {
+            "width": [
+                1536,
+                1886
+            ],
+            "height": [
+                187,
+                720
+            ],
+            "covered": [
+                false
+            ],
+            "horizontal placement": [
+                4,
+                5
+            ],
+            "vertical placement": [
+                2,
+                3
+            ],
+            "horizontal alignment": 1,
+            "vertical alignment": -1
+        },
+        "inside": {
+            "information": {
+                "image": [
+                    "https://cdn.discordapp.com/attachments/855503549802872872/932106581468913696/omelette_house_Inside.png"
+                ]
+            },
+            "layers": {
+                "Wall": {
+                    "shape": "box",
+                    "width": 1920,
+                    "height": 1080,
+                    "color": 10,
+                    "coords": {
+                        "horizontally": [
+                            1,
+                            2
+                        ],
+                        "vertically": [
+                            1,
+                            2
+                        ],
+                        "horizontal alignment": 0,
+                        "vertical alignment": 0
+                    }
+                }
+            }
+        }
+    },
+    "floor": {
+        "information": {
+            "owner": "omelette",
+            "type": "object",
+            "image": [
+                "https://cdn.discordapp.com/attachments/855503549802872872/932112905263001600/floor.png"
+            ],
+            "width": [
+                [
+                    0,
+                    1000
+                ]
+            ],
+            "height": [
+                [
+                    900,
+                    1000
+                ]
+            ]
+        },
+        "space": {
+            "width": [
+                0,
+                1000
+            ],
+            "height": [
+                980,
+                1080
+            ],
+            "covered": [
+                false
+            ],
+            "horizontal placement": [
+                0,
+                1
+            ],
+            "vertical placement": [
+                1,
+                1
+            ],
+            "horizontal alignment": 1,
+            "vertical alignment": -1
+        }
+    },
+    "floor2": {
+        "information": {
+            "owner": "omelette",
+            "type": "object",
+            "image": [
+                "https://cdn.discordapp.com/attachments/855503549802872872/932113561872924752/floor2.png"
+            ],
+            "width": [
+                [
+                    0,
+                    1000
+                ]
+            ],
+            "height": [
+                [
+                    900,
+                    1000
+                ]
+            ]
+        },
+        "space": {
+            "width": [
+                960,
+                1960
+            ],
+            "height": [
+                980,
+                1080
+            ],
+            "covered": [
+                false
+            ],
+            "horizontal placement": [
+                1,
+                2
+            ],
+            "vertical placement": [
+                1,
+                1
+            ],
+            "horizontal alignment": 1,
+            "vertical alignment": -1
+        }
+    },
+	"wheat": {
+		"information": {
+			"owner": "little luigi",
+			"type": "plant",
+			"image": [
+				"https://cdn.discordapp.com/attachments/850491267095986237/936076431572729876/LLL_Object_Wheat.png"
+			],
+			"width": [
+				[
+					325,
+					675
+				]
+			],
+			"height": [
+				[
+					750,
+					1000
+				]
+			],
+			"states": {
+				"0": {
+					"image": "https://cdn.discordapp.com/attachments/850491267095986237/936076431308505158/LLL_Object_Ungrown_Wheat.png",
+					"width": [
+						275,
+						675
+					],
+					"height": [
+						800,
+						1000
+					]
+				},
+				"1": {
+					"image": "https://cdn.discordapp.com/attachments/850491267095986237/936076431572729876/LLL_Object_Wheat.png",
+					"width": [
+						325,
+						675
+					],
+					"height": [
+						750,
+						1000
+					]
+				},
+				"state": "1",
+				"growth": [3, 3]
+			}
+		}
+	},
+	"melon": {
+		"information": {
+			"owner": "little luigi",
+			"type": "plant",
+			"image": [
+				"https://cdn.discordapp.com/attachments/850491267095986237/937494625650901012/Little_Luigi_Land_LLL_Melon_Object.png"
+			],
+			"width": [
+				[
+					400,
+					600
+				]
+			],
+			"height": [
+				[
+					750,
+					1000
+				]
+			],
+			"states": {
+				"0": {
+					"image": "https://cdn.discordapp.com/attachments/850491267095986237/937494625978048583/Little_Luigi_Land_LLL_Ungrown_Melon_Object.png",
+					"width": [
+						400,
+						550
+					],
+					"height": [
+						850,
+						1000
+					]
+				},
+				"1": {
+					"image": "https://cdn.discordapp.com/attachments/850491267095986237/937494625650901012/Little_Luigi_Land_LLL_Melon_Object.png",
+					"width": [
+						400,
+						600
+					],
+					"height": [
+						750,
+						1000
+					]
+				},
+				"state": "1",
+				"growth": [2, 2]
+			}
+		}
+	},
+	"pumpkin": {
+		"information": {
+			"owner": "little luigi",
+			"type": "plant",
+			"image": [
+				"https://cdn.discordapp.com/attachments/850491267095986237/937500141005455380/Little_Luigi_Land_LLL_Pumpkin_Object.png"
+			],
+			"width": [
+				[
+					375,
+					625
+				]
+			],
+			"height": [
+				[
+					700,
+					1000
+				]
+			],
+			"states": {
+				"0": {
+					"image": "https://cdn.discordapp.com/attachments/850491267095986237/937494625978048583/Little_Luigi_Land_LLL_Ungrown_Melon_Object.png",
+					"width": [
+						400,
+						550
+					],
+					"height": [
+						850,
+						1000
+					]
+				},
+				"1": {
+					"image": "https://cdn.discordapp.com/attachments/850491267095986237/937494625650901012/Little_Luigi_Land_LLL_Melon_Object.png",
+					"width": [
+						375,
+						625
+					],
+					"height": [
+						700,
+						1000
+					]
+				},
+				"state": "1",
+				"growth": [2, 2]
+			}
+		}
+	}
+}

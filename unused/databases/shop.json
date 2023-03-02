@@ -1,0 +1,22 @@
+{
+   "another claim": {
+      "cost": 2,
+      "description": "Let's you claim one more location.",
+      "function": "players[userName]['claims'] = players[userName]['claims']+1"
+   },
+   "another build": {
+      "cost": 1,
+      "description": "Lets you build one more object/house.",
+      "function": "players[userName]['builds'] = players[userName]['builds']+1"
+   },
+   "bigger pockets": {
+      "cost": 10,
+      "description": "Gives you a space for 200 more items in your inventory.",
+      "function": "players[userName]['inventory']['space'][1] += 200"
+   },
+   "become a religious leader": {
+      "cost": 150,
+      "description": "Become the leader of your own religion/cult. You'll gain the ability to create a religion, church, and get followers ",
+      "function": ""
+   }
+}

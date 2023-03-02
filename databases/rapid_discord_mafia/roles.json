@@ -1,0 +1,428 @@
+{
+	"Townie": {
+		"name": "Townie",
+		"faction": "Town",
+		"alignment": "Crowd",
+		"attack": 0,
+		"defense": 0,
+		"goal": "Eliminate the Mafia, Coven, all Neutral Killing, and all Neutral Tyrants"
+	},
+	"Doctor": {
+		"name": "Doctor",
+		"faction": "Town",
+		"alignment": "Protective",
+		"attack": 0,
+		"defense": 0,
+		"goal": "Eliminate the Mafia, Coven, all Neutral Killing, and all Neutral Tyrants",
+		"abilities": [
+			{
+				"name": "Heal",
+				"type": "protection",
+				"uses": -1,
+				"description": "At night, heal another chosen player. They will receive a level two defense ○○ for the night and the following day. You and your target will be notified if your target was attacked that night or the following day.",
+				"perform": "heal",
+				"priority": 3,
+				"duration": 1,
+				"args": [
+					{
+						"name": "Player Healing",
+						"type": "player",
+						"subtypes": ["visiting", "another"]
+					}
+				]
+			},
+			{
+				"name": "Self Heal",
+				"type": "protection",
+				"uses": 1,
+				"description": "At night, heal yourself. You'll get a level two defense ○○ for the night and following day.",
+				"perform": "selfHeal",
+				"priority": 3,
+				"duration": 1
+			}
+		]
+	},
+	"Sheriff": {
+		"name": "Sheriff",
+		"faction": "Town",
+		"alignment": "Investigative",
+		"attack": 0,
+		"defense": 0,
+		"goal": "Eliminate the Mafia, Coven, all Neutral Killing, and all Neutral Tyrants",
+		"abilities": [
+			{
+				"name": "Evaluate",
+				"type": "investigative",
+				"uses": -1,
+				"description": "At night, evaluate another chosen player. You will be notified that they're suspicious if they are Mafia, Coven, a Neutral Killing. You'll be told they're innocent if their Town or a Neutral that's not a Neutral Killing. You'll be told it's unclear if they are doused by the Arsonist. Your results will be affected by the players' perceived role.",
+				"perform": "evaluate",
+				"priority": 6,
+				"args": [
+					{
+						"name": "Player Evaluating",
+						"type": "player",
+						"subtypes": ["visiting", "another"]
+					}
+				]
+			}
+		]
+	},
+	"Tracker": {
+		"name": "Tracker",
+		"faction": "Town",
+		"alignment": "Investigative",
+		"attack": 0,
+		"defense": 0,
+		"goal": "Eliminate the Mafia, Coven, all Neutral Killing, and all Neutral Tyrants",
+		"abilities": [
+			{
+				"name": "Track",
+				"type": "investigative",
+				"uses": -1,
+				"phase": "night",
+				"description": "At night, track another chosen player. If they are percieved to be visiting another player, you'll be told who they visited.",
+				"perform": "track",
+				"priority": 6,
+				"args": [
+					{
+						"name": "Player Tracking",
+						"type": "player",
+						"subtypes": ["visiting", "another"]
+					}
+				]
+			}
+		]
+	},
+	"Escort": {
+		"name": "Escort",
+		"faction": "Town",
+		"alignment": "Support",
+		"immunities": ["roleblock"],
+		"attack": 0,
+		"defense": 0,
+		"goal": "Eliminate the Mafia, Coven, all Neutral Killing, and all Neutral Tyrants",
+		"abilities": [
+			{
+				"name": "Escort",
+				"type": "roleblock",
+				"uses": -1,
+				"description": "At night, escort another chosen player. They will be roleblocked that night and the following day. Players you escort will be notified they have been roleblocked. You will not be told if your roleblock was successful or not.",
+				"perform": "roleblock",
+				"priority": 1,
+				"duration": 1,
+				"args": [
+					{
+						"name": "Player Escorting",
+						"type": "player",
+						"subtypes": ["visiting", "another"]
+					}
+				]
+			}
+		]
+	},
+	"Vigilante": {
+		"name": "Vigilante",
+		"faction": "Town",
+		"alignment": "Killing",
+		"attack": 1,
+		"defense": 0,
+		"goal": "Eliminate the Mafia, Coven, all Neutral Killing, and all Neutral Tyrants",
+		"abilities": [
+			{
+				"name": "Shoot",
+				"type": "attacking",
+				"uses": 3,
+				"description": "At night, shoot another chosen player. They will be attacked by you.",
+				"perform": "attack",
+				"priority": 4,
+				"duration": 0.5,
+				"args": [
+					{
+						"name": "Player Shooting",
+						"type": "player",
+						"subtypes": ["visiting", "another"]
+					}
+				]
+			},
+			{
+				"name": "Suicide",
+				"type": "suicide",
+				"uses": 0,
+				"description": "At night, if you were responsible for killing a player that was actually town last night, you will attack yourself with an attack level of four ●●●● the next night.",
+				"priority": 4,
+				"duration": 0.5
+			}
+		]
+	},
+
+	"Godfather": {
+		"name": "Godfather",
+		"faction": "Mafia",
+		"alignment": "Killing",
+		"isUnique": true,
+		"attack": 1,
+		"defense": 1,
+		"goal": "Eliminate the Town, Coven, all Neutral Killing, and all Neutral Tyrants",
+		"abilities": [
+			{
+				"name": "Order",
+				"type": "control",
+				"uses": -1,
+				"description": "At night, order the mafia to kill a chosen non-mafia player. That player will be the mafia's target. If the Mafioso doesn't exist, is dead, or is roleblocked, you will attack the mafia's target yourself instead.",
+				"perform": "order",
+				"priority": 3,
+				"duration": 0.5,
+				"args": [
+					{
+						"name": "Player Killing",
+						"type": "player",
+						"subtypes": ["non-mafia"]
+					}
+				]
+			},
+			{
+				"name": "Promote",
+				"uses": 0,
+				"description": "At night, if your existing mafioso died the previous night, you'll automatically have to promote a chosen mafia member to Mafioso. They will lose their original role and become a Mafioso.",
+				"priority": 1,
+				"duration": 0.5
+			}
+		]
+	},
+	"Mafioso": {
+		"name": "Mafioso",
+		"faction": "Mafia",
+		"alignment": "Killing",
+		"isUnique": true,
+		"attack": 1,
+		"defense": 0,
+		"goal": "Eliminate the Town, Coven, all Neutral Killing, and all Neutral Tyrants",
+		"abilities": [
+			{
+				"name": "Murder",
+				"type": "attacking",
+				"uses": -1,
+				"description": "At night, chose a non-mafia player to become the mafia's target. If the godfather ordered you to kill a different player, they'll become a target instead. You'll attack the mafia's target.",
+				"perform": "attack",
+				"priority": 4,
+				"duration": 0.5,
+				"args": [
+					{
+						"name": "Player Killing",
+						"type": "player",
+						"subtypes": ["visiting", "non-mafia"]
+					}
+				]
+			},
+			{
+				"name": "Promote",
+				"uses": 0,
+				"description": "At night, you'll automatically become promoted to Godfather if the existing one died. You'll lose your Mafioso role and become a Godfather.",
+				"priority": 1,
+				"duration": 0.5
+			}
+		]
+	},
+	"Framer": {
+		"name": "Framer",
+		"faction": "Mafia",
+		"alignment": "Deception",
+		"attack": 0,
+		"defense": 0,
+		"goal": "Eliminate the Town, Coven, all Neutral Killing, and all Neutral Tyrants",
+		"abilities": [
+			{
+				"name": "Frame",
+				"type": "manipulation",
+				"uses": -1,
+				"description": "At night, frame a chosen non-mafia player. They will be perceived as the Mafioso until they're investigated by a player and percieved as Mafioso.",
+				"perform": "frame",
+				"priority": 5,
+				"duration": 1,
+				"args": [
+					{
+						"name": "Player Framing",
+						"type": "player",
+						"subtypes": ["visiting", "non-mafia"]
+					}
+				]
+			}
+		]
+	},
+	"Consort": {
+		"name": "Consort",
+		"faction": "Mafia",
+		"alignment": "Support",
+		"immunities": ["roleblock"],
+		"attack": 0,
+		"defense": 0,
+		"goal": "Eliminate the Town, Coven, all Neutral Killing, and all Neutral Tyrants",
+		"abilities": [
+			{
+				"name": "Consort",
+				"type": "roleblock",
+				"uses": -1,
+				"description": "At night, consort another chosen player. They will be roleblocked that night and the following day. Players you consort will be notified they have been roleblocked. You will not be told if your roleblock was successful or not.",
+				"perform": "roleblock",
+				"priority": 1,
+				"duration": 1,
+				"args": [
+					{
+						"name": "Player Consorting",
+						"type": "player",
+						"subtypes": ["visiting", "another"]
+					}
+				]
+			}
+		]
+	},
+	"Consigliere": {
+		"name": "Consigliere",
+		"faction": "Mafia",
+		"alignment": "Support",
+		"attack": 0,
+		"defense": 0,
+		"goal": "Eliminate the Town, Coven, all Neutral Killing, and all Neutral Tyrants",
+		"abilities": [
+			{
+				"name": "Investigate",
+				"type": "investigative",
+				"uses": -1,
+				"description": "At night, investigate a chosen player. You will learn their perceived role.",
+				"perform": "investigate",
+				"priority": 6,
+				"args": [
+					{
+						"name": "Player Investigating",
+						"type": "player",
+						"subtypes": ["visiting", "non-mafia"]
+					}
+				]
+			}
+		]
+	},
+
+	"Fool": {
+		"name": "Fool",
+		"faction": "Neutral",
+		"alignment": "Evil",
+		"attack": 4,
+		"defense": 0,
+		"goal": "Be lynched successfully",
+		"abilities": [
+			{
+				"name": "Self Frame",
+				"type": "manipulation",
+				"uses": 1,
+				"description": "At night, frame yourself. You'll be perceived as the Mafioso until you're investigated by a player and percieved as Mafioso.",
+				"perform": "selfFrame",
+				"priority": 5,
+				"duration": -1
+			},
+			{
+				"name": "Silence Curse",
+				"type": "muting",
+				"uses": 1,
+				"description": "At night, after you've satisfied your win condition and been lynched and you haven't chosen another curse, curse the town with silence. On the day after, the voting and trial phases will be skipped.",
+				"perform": "silenceCurse",
+				"priority": 1,
+				"duration": 1,
+				"isLimboOnly": true
+			},
+			{
+				"name": "Death Curse",
+				"type": "attacking",
+				"uses": 1,
+				"description": "At night, after you've satisfied your win condition and been lynched and you haven't chosen another curse, curse a chosen player with death. They will be attacked by you.",
+				"perform": "attack",
+				"priority": 4,
+				"duration": 0.5,
+				"isLimboOnly": true,
+				"args": [
+					{
+						"name": "Player Killing",
+						"type": "player",
+						"subtypes": ["visiting"]
+					}
+				]
+			}
+		],
+		"notes": "If you were lynched after 2nd day, you can only do one of the three curses at any time you want.\nIf you were lynched on the 2nd day, you can do two curses. (They can be the same or different ones and happen on the same or different nights)"
+	},
+	"Executioner": {
+		"name": "Executioner",
+		"faction": "Neutral",
+		"alignment": "Evil",
+		"attack": 0,
+		"defense": 1,
+		"goal": "Get your target successfully lynched during the day",
+		"abilities": [
+			{
+				"name": "Frame Target",
+				"type": "manipulation",
+				"uses": 1,
+				"description": "At night, frame your target. They'll be perceived as the Mafioso until they're investigated by a player and percieved as Mafioso.",
+				"perform": "frameTarget",
+				"priority": 5,
+				"duration": -1
+			}
+		],
+		"notes": "At the beginning of the game, you will be given a target (a player with a town role). You need to try and get them lynched before the end of the game. If your target dies before then, you'll become a Fool and no longer be an Executioner."
+	},
+	"Survivor": {
+		"name": "Survivor",
+		"faction": "Neutral",
+		"alignment": "Benign",
+		"attack": 0,
+		"defense": 0,
+		"goal": "Survive until the end of the game",
+		"abilities": [
+			{
+				"name": "Self Vest",
+				"type": "protection",
+				"uses": 4,
+				"description": "At night, put on a vest. You'll get a level two defense ○○ for the night and following day.",
+				"perform": "selfHeal",
+				"priority": 3,
+				"duration": 1
+			}
+		]
+	},
+	"Serial Killer": {
+		"name": "Serial Killer",
+		"faction": "Neutral",
+		"alignment": "Killing",
+		"immunities": ["roleblock"],
+		"attack": 1,
+		"defense": 1,
+		"goal": "Survive and eliminate the Town, Mafia, Coven, all Neutral Killing, and all Neutral Tyrants",
+		"abilities": [
+			{
+				"name": "Knife",
+				"type": "attacking",
+				"uses": -1,
+				"description": "At night, knife another chosen player. You'll attack them.",
+				"perform": "attack",
+				"priority": 4,
+				"duration": 0.5,
+				"args": [
+					{
+						"name": "Player Knifing",
+						"type": "player",
+						"subtypes": ["visiting", "another"]
+					}
+				]
+			},
+			{
+				"name": "Cautious",
+				"type": "modifier",
+				"uses": -1,
+				"description": "At night, choose to be cautious. You won't attack anyone who roleblocks you.",
+				"perform": "cautious",
+				"priority": 1,
+				"duration": 0.5
+			}
+		],
+		"notes": "You'll automatically attack anybody who roleblocked you instead of your original target."
+	}
+}

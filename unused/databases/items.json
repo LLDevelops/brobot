@@ -1,0 +1,327 @@
+{
+	"blue berry": {
+		"description": "A blue berry. It restores 1/2 a food point. It grows only on bushes",
+		"type": "food",
+		"restore": 0.5
+	},
+	"hot blue berry": {
+		"description": "A blue berry but it's hot. It restores 1/2 a food point and will burn your mouth.",
+		"type": "food",
+		"restore": 0.5
+	},
+	"blue berry seed": {
+		"description": "A seed used to plant blue berry bushes",
+		"type": "seed",
+		"grows": "blue berry bush"
+	},
+	"red berry": {
+		"description": "A red berry. It restores 1/2 a food point. It grows only on bushes",
+		"type": "food",
+		"restore": 0.5
+	},
+	"hot red berry": {
+		"description": "A red berry but it's hot. It restores 1/2 a food point and will burn your mouth.",
+		"type": "food",
+		"restore": 0.5
+	},
+	"red berry seed": {
+		"description": "A seed used to plant red berry bushes",
+		"type": "seed",
+		"grows": "red berry bush"
+	},
+	"purple berry": {
+		"description": "A purple berry. It restores 1/2 a food point. It grows only on bushes",
+		"type": "food",
+		"restore": 0.5
+	},
+	"hot purple berry": {
+		"description": "A purple berry but it's hot. It restores 1/2 a food point and will burn your mouth.",
+		"type": "food",
+		"restore": 0.5
+	},
+	"purple berry seed": {
+		"description": "A seed used to plant purple berry bushes",
+		"type": "seed",
+		"grows": "purple berry bush"
+	},
+	"berry salad": {
+		"description": "A mix of many different types of berries. Restores 2.5 food points.",
+		"type": "food",
+		"restore": 2.5
+	},
+	"apple": {
+		"description": "A juicy apple. It restores 1/2 a food point. It only grows on trees",
+		"type": "food",
+		"restore": 0.5
+	},
+	"baked apple": {
+		"description": "A squishier hotter apple. It's more filling than normal and restores a food point.",
+		"type": "food",
+		"restore": 1
+	},
+	"apple seed": {
+		"description": "A seed used to plant apple trees",
+		"type": "seed",
+		"grows": "apple tree"
+	},
+	"pear": {
+		"description": "A juicy pear. It restores a food point. It only grows on trees",
+		"type": "food",
+		"restore": 0.5
+	},
+	"baked pear": {
+		"description": "An even squishier hotter pear. It's more filling than normal and restores a food point.",
+		"type": "food",
+		"restore": 1
+	},
+	"pear seed": {
+		"description": "A seed used to plant pear trees",
+		"type": "seed",
+		"grows": "pear tree"
+	},
+	"orange": {
+		"description": "An orange. It restores a food point. It only grows on trees",
+		"type": "food",		 
+		"restore": 0.5
+	},
+	"burnt orange": {
+		"description": "An orange that's been burnt until it turned black. It tastes gross and restores only 0.1 food point.",
+		"type": "food",
+		"restore": 0.1
+	},
+	"orange seed": {
+		"description": "A seed used to plant orange trees",
+		"type": "seed",
+		"grows": "orange tree"
+	},
+	"fruit salad": {
+		"description": "A mix of many different types of fruits. Restores 2.5 food points.",
+		"type": "food",
+		"restore": 2.5
+	},
+	"fruit smoothie": {
+		"description": "A liquid mix of many different types of fruits and berries. It's very healthy and it restores 6 food points.",
+		"type": "food",
+		"restore": 6
+	},
+	"wood": {
+		"description": "It's a piece of wood",
+		"type": "material"
+	},
+	"leaves": {
+		"description": "It's a leaf",
+		"type": "material"
+	},
+	"sapling": {
+		"description": "A sapling used to plant trees",
+		"type": "seed",
+		"grows": "tree"
+	},
+	"stone": {
+		"description": "It's a piece of stone",
+		"type": "material"
+	},
+	"iron ore": {
+		"description": "It's a uncooked piece of iron",
+		"type": "material"
+	},
+	"steel": {
+		"description": "It's strong piece of metal made from Iron Ore",
+		"type": "material"
+	},
+	"string": {
+		"description":"It's string",
+		"type": "material",
+		"craftable": {
+			"leaves":2
+		}
+	},
+	"wheat": {
+		"description": "A plant that's useful for making foods",
+		"type": "material"
+	},
+	"wheat seeds": {
+		"description": "A seed used to plant wheat",
+		"type": "seed",
+		"grows": "wheat"
+	},
+	"watermelon": {
+		"description": "A big juicy unsliced watermelon. Only edible when sliced.",
+		"type": "material"
+	},
+	"sliced watermelon": {
+		"description": "A juicy slice of watermelon. Restores 3 food points.",
+		"type": "food",
+		"restore": 1,
+		"craftable":{
+			"watermelon": 1
+		},
+		"required":["stone knife"]
+	},
+	"melon seeds": {
+		"description": "A seed used to plant watermelon",
+		"type": "seed",
+		"grows": "melon"
+	},
+	"pumpkin": {
+		"description": "An unedible pumpkin.",
+		"type": "material"
+	},
+	"pumpkin seeds": {
+		"description": "A seed used to plant pumpkins",
+		"type": "seed",
+		"grows": "pumpkin"
+	},
+	"workbench": {
+		"description":"Table used to craft items",
+		"type": "appliance",
+		"craftable": {
+			"wood":2
+		}
+	},
+	"smelter": {
+		"description": "Used to melt minerals and other things",
+		"type": "appliance",
+		"craftable": {
+			"stone":10
+		}
+	},
+	"plug": {
+		"description": "Used to transfer electricity from your house to an appliance",
+		"type": "tool",
+		"craftable": {
+			"stone":3
+		}
+	},
+	"crate": {
+		"description":"Used to store 50 items",
+		"type": "appliance",
+		"craftable": {
+			"wood": 10,
+			"string": 4 
+		}
+	},
+	"wooden hatchet": {
+		"description": "A tool you can use to mine rock",
+		"type": "tool",
+		"mines": [
+			"stone"
+		],
+		"durability":  1,
+		"craftable": {
+			"wood": 4
+		}
+	},
+	"stone hatchet": {
+		"description":"A tool you can use to mine rock and other minerals",
+		"type": "tool",
+		"mines": [
+			"stone",
+			"iron ore"
+		],
+		"durability": 10,
+		"craftable": {
+			"wood":2,
+			"stone":2
+		}
+	},
+	"stone knife": {
+		"description":"Used to carve wood into shapes",
+		"type": "device",
+		"craftable": {
+			"wood":3,
+			"stone":3
+		}
+	},
+	"chisel": {
+		"description":"Used to carve into stone",
+		"type": "device",
+		"craftable": {
+			"wood":5,
+			"steel":3
+		}
+	},
+	"hacksaw": {
+		"description":"Used to carve and cut into steel",
+		"type": "device",
+		"craftable": {
+			"wood":8,
+			"steel":8
+		},
+		"required":["chisel"]
+	},
+	"wheel": {
+		"description":"A way to move things. Doesn't last long",
+		"type": "material",
+		"craftable": {
+			"wood":3
+		},
+		"required":["stone knife"]
+	},
+	"seat": {
+		"description":"Used so you can sit on a thing",
+		"type": "material",
+		"craftable": {
+			"wood":2,
+			"stone":1
+		},
+		"required":["stone knife"]
+	},
+	"bicycle frame":{
+		"description":"The frame for bicycle",
+		"type": "material",
+		"craftable": {
+			"stone":5
+		},
+		"required":["chisel"]
+	},
+	"car frame":{
+		"description":"The frame for car",
+		"type": "material",
+		"craftable": {
+			"steel":20
+		},
+		"required":["hacksaw"]
+	},
+	"unicycle": {
+		"description":"Use so you can travel up to 5 steps in style",
+		"type": "transportation device",
+		"craftable": {
+			"wheel":1,
+			"seat":1
+		}
+	},
+	"bicycle": {
+		"description":"Use so you can travel up to 10 steps in style",
+		"type": "transportation device",
+		"craftable": {
+			"wheel":2,
+			"seat":1,
+			"bicycle frame":1
+		}
+	},
+	"car": {
+		"description":"Use so you can travel up to 25 steps in style",
+		"type": "`transportation device",
+		"craftable": {
+			"wheel":4,
+			"seat":4,
+			"car frame":1
+		}
+	},
+	"ladder":{
+		"description":"Used to travel above places. Place it so that it touches the top of your location to explore upwards.",
+		"type": "transportation device",
+		"craftable": {
+			"wood":15
+		}
+	},
+	"donation basket":{
+		"description":"Used to donate items to other players",
+		"type": "device",
+		"craftable": {
+			"wood":5,
+			"string":5
+		}
+	}
+}

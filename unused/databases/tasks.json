@@ -1,0 +1,142 @@
+{
+	"make a character": {
+	 	"description": "Make your character using `<build`. You can add a Left Eye, Right Eye, and either a Smile, Frown, or Mouth since those are public objects",
+	 	"reward": {
+			"LLPoints": 1,
+			"xp": 1
+		 }
+	},
+	"explore!": {
+		"description": "Using the `<explore` command, see the world and look for a location you want to claim. Then claim it using `<claim`",
+		"reward": {
+		   "LLPoints": 1
+		}
+	},
+	"home sweet home": {
+		"description": "Build yourself a house using `<build`. Then, place it on the location you claimed using `<place`",
+		"reward": {
+		   "LLPoints": 1,
+		   "xp": 5
+		}
+	},
+	"accessories": {
+		"description": "Add something to your character to make it cool using `<editobject`",
+		"reward": {
+		   "LLPoints": 1
+		}
+	},
+	"make a shop": {
+		"description": "Build another house using `<build`. Turn it into a shop using `<createshop`. Sell an object, house, claimed location, or item you have. Finally, place the shop at a location you've claimed using `<place`",
+		"reward": {
+		   "LLPoints": 1,
+		   "xp": 6
+		}
+	},
+	"make a purchase": {
+		"description": "Visit another player's shop using `<explore` and buy one of the things for sale using `<buyhere` Check what the shop is selling with `<viewshop`",
+		"reward": {
+		   "LLPoints": 1,
+		   "xp": 3
+		}
+	},
+	"make a universal purchase": {
+		"description": "Buy something at the #universal-shop using the command `<buy`",
+		"reward": {
+		   "LLPoints": 1,
+		   "xp": 3
+		}
+	},
+	"spruce up": {
+		"description": "Place an object on your claimed location to spruce it up using `<build` and `<place`",
+		"reward": {
+		   "LLPoints": 1,
+		   "xp": 2
+		}
+	},
+	"decorate": {
+		"description": "Add something inside your house or shop to make it more presentable using `<build` and `<place`",
+		"reward": {
+		   "LLPoints": 1,
+		   "xp": 2
+		}
+	},
+	"fight!": {
+		"description": "Start a conflict with someone using `<conflict` that Little Luigi approves and resolves",
+		"reward": {
+		   "LLPoints": 1
+		}
+	},
+	"harvest food": {
+		"description": "Find plants outside using `<explore` and then harvest the food from them using ",
+		"reward": {
+		   "LLPoints": 1,
+		   "xp": 5
+		}
+	},
+	"omnomnom": {
+		"description": "Eat some food you have to regain hunger bars using `<eat`",
+		"reward": {
+		   "LLPoints": 1
+		}
+	},
+	"lumberjack": {
+		"description": "Find a tree outside using `<explore` and harvest the wood from it using `<harvest`",
+		"reward": {
+		   "LLPoints": 1,
+		   "xp": 5
+		}
+	},
+	"crafting": {
+		"description": "Craft a workbench with wood using `<craft`",
+		"reward": {
+		   "LLPoints": 1,
+		   "xp": 3
+		}
+	},
+	"getting tools": {
+		"description": "Place your workbench inside your home and then use it to craft any tool using `<craft`. See what you can make with the `<recipelist` command.",
+		"reward": {
+		   "LLPoints": 1,
+		   "xp": 5
+		}
+	},
+	"mining":{
+		"description": "Mine any mineral with a tool you own using `<mine`",
+		"reward": {
+			"LLPoints": 1,
+			"xp": 8
+		}
+	},
+	"start smelting":{
+		"description": "Smelt an ore in a smelter using the `<smelt` command. See what you can smelt with the `<recipelist` command.",
+		"reward": {
+		   "LLPoints": 1,
+		   "xp": 5
+		}
+	},
+	"going vertical":{
+		"description": "Explore upwards or downwards with the `<explore` command using a ladder or by mining",
+		"reward": {
+		   "LLPoints": 1
+		}
+	},
+	"using transportation":{
+		"description": "Create a form of transportation like a unicycle using the `<craft` command and use it to travel through multiple locations at once with the `<explore` command",
+		"reward": {
+		   "LLPoints": 1
+		}
+	},
+	"home cooking":{
+		"description": "Smelt some food in a smelter using the `<smelt` command. See what you can smelt with the `<recipelist` command.",
+		"reward": {
+		   "LLPoints": 1,
+		   "xp": 3
+		}
+	},
+	"what's that smell?":{
+		"description": "Burn a piece of food",
+		"reward": {
+		   "LLPoints": 1
+		}
+	}
+}

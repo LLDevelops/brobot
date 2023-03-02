@@ -7,9 +7,6 @@ const
 	{ prefix, blocked_users } = require('./config.json'),
 	config = require('./config.json'),
 	command_files = fs.readdirSync('./commands').filter(file => file.endsWith('.js')),
-	Game = require("./modules/game.js"),
-	Players = require("./modules/players.js"),
-	LLPointManager = require("./modules/llpointmanager.js"),
 	{ ll_user_id, ll_game_shows: llgs, brobot_user_id, brobot_test_server } = require('./databases/ids.json'),
 	client = new Discord.Client({
 		intents: [
@@ -35,13 +32,20 @@ for (const file of command_files) {
 // when the client is ready, run this code
 // this event will only trigger one time after logging in
 client.once('ready', async () => {
+	const
+		Game = require("./modules/game.js"),
+		Players = require("./modules/players.js"),
+		LLPointManager = require("./modules/llpointmanager.js");
+
 	config.isOn = true;
 	fs.writeFileSync("./config.json", JSON.stringify(config));
 
 	global.Roles = require("./modules/roles");
 	global.Game = new Game( new Players() );
 	global.LLPointManager = new LLPointManager();
-	global.LLPointManager.updateViewersFromDatabase();
+	await global.LLPointManager.updateViewersFromDatabase();
+
+	console.log(global);
 
 	client.user.setPresence({
 		status: 'online',
@@ -54,7 +58,7 @@ client.once('ready', async () => {
 
 	const llgs_server = client.guilds.cache.get(llgs.server_id);
 	const daily_controversial_msg = new cron.CronJob(
-		'00 30 16 */1 * *',
+		'00 30 18 */1 * *',
 		() => {
 			let messages = JSON.parse(fs.readFileSync("./databases/messages.json"));
 
@@ -74,7 +78,7 @@ client.once('ready', async () => {
 	);
 
 	const daily_philosophy_msg = new cron.CronJob(
-		'00 30 10 */1 * *',
+		'00 30 12 */1 * *',
 		() => {
 			let messages = JSON.parse(fs.readFileSync("./databases/messages.json"));
 
